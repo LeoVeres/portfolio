@@ -1,4 +1,5 @@
-body { box-sizing: border-box;
+body { 
+  box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
   margin-top: 0px;
 }
@@ -6,13 +7,32 @@ body { box-sizing: border-box;
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: #19706f;
+  background-color: #1c72ac;
   z-index: 9990;
 }
-footer {width: 100%; background-color:#19706f; text-align: center; margin-top: 100px;}
-.contact-info {width: 970px; height: 70px; color: white; margin: 0 auto;}
-footer div ul li {display: inline-block; margin-left: 50px; font-size: 20px; margin-top: 20px; margin-right:50px;}
-.info{padding: 0px;}
+footer {
+  width: 100%;
+  background-color:#1c72ac;
+  text-align: center;
+  margin-top: 100px;
+}
+.contact-info {
+  width: 970px;
+  height: 70px;
+  color: white;
+  margin: 0 auto;
+}
+
+footer div ul li {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right:50px;
+}
+.info{
+  padding: 0px;
+}
 
 .name {
   display: inline-block;
@@ -42,13 +62,12 @@ footer div ul li {display: inline-block; margin-left: 50px; font-size: 20px; mar
   color: white;
 }
 
-
-
 nav div ul li:hover {
   cursor: pointer;
 }
 
-a {color: white;
+a {
+  color: white;
   text-decoration: none;
 }
 
@@ -56,19 +75,39 @@ a:visited {
   color: inherit;
 }
 
-#portfolio {padding-top: 200px; width: 970px; margin: 0 auto;  text-align: center;}
-#resume {padding-top:200px; margin:0 auto; text-align: center;}
-img {border: 2px black solid; margin: 0 20px; margin-bottom: 40px;}
+#portfolio {
+  padding-top: 200px;
+  width: 970px;
+  margin: 0 auto;
+  text-align: center;
+}
+#resume {
+  padding-top:200px;
+  margin:0 auto;
+  text-align:center;
+}
+
+img {
+  border: 2px black solid;
+  margin: 0 20px;
+  margin-bottom: 40px;
+}
 
 @media only screen and (max-width: 600px) {
   .image {
     display: block;
     margin-bottom: 10px;
   }
-  img {margin: 0 auto;}
+
+  img {
+    margin: 0 auto;
+  }
+
   #portfolio {
     width: 100%;
   }
 
-  ul.links {padding: 0;}
+  ul.links {
+    padding: 0;
+  }
 }
