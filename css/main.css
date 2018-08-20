@@ -8,11 +8,13 @@ body {
   font-family: 'Oswald', sans-serif;
   margin: 0;
 }
+
 .container{
   margin:0 auto;
   text-align: center;
   display: block
 }
+
 a {
   color: white;
   text-decoration: none;
@@ -24,38 +26,34 @@ a:visited {
 
 .navbar {
   color:white;
-  position: absolute;
-  top:0;
+  display: block;
   width: 100%;
   background-color: #235075;
+  padding: 3px 0
 }
 
-.name {
-  font-size: 40px;
-  margin:10px 20px;
-  color: white;
-}
 .links{
   position: absolute;
-  top:10px;
   right:10px;
-  display: block;
+  top: 10px;
 }
-.links li{
-  margin-right:20px;
+.links li {
   display: inline-block;
-  list-style: none;
+  margin-right: 10px
+}
+
+.navbar h1 {
+  font-size: 40px;
+  margin:10px 20px;
 }
 
 nav div ul li:hover {
   cursor: pointer;
 }
 
-
-
-
-
-
+img{
+  height: 300px
+}
 #intro{
 
 
@@ -70,17 +68,16 @@ nav div ul li:hover {
 
 }
 
-#contact{
-
-}
 
 footer {
   width: 100%;
-  background-color:#235075;
+  background-color:#808080;
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 0px;
-  color:white
+  color:white;
+  padding: 2px;
+  margin-top:10px;
 }
 .info li{
   display: inline-block;

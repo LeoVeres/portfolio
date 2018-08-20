@@ -1,0 +1,71 @@
+html,body{height:100%;font-family:'Montserrat', sans-serif}
+
+body{margin:0}
+
+.page-container{height:100%}
+
+.home{background-image:url('../resources/imgs/wallpaper.jpg');background-size:cover}
+
+.logo{position:absolute;top:20%;left:50%;transform:translate(-50%, -50%)}
+
+.home-content{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center;color:white;width:800px}
+
+.hire-button{color:white;border:2px solid #31C4F0;text-transform:uppercase;margin-top:10rem;line-height:3.5rem;font-size:1.3rem}
+
+.hire-button:hover{background-color:#31C4F0}
+
+.home-footer{bottom:0;position:absolute;margin-bottom:65px;width:300px;text-align:center;left:50%;transform:translate(-50%, -50%);font-size:1.5rem}
+
+.home-about{color:white;text-decoration:none}
+
+.home-footer .home-about:hover{color:#D1D1D1;text-decoration:none}
+
+.contact-me{color:#31C4F0;text-decoration:none}
+
+.about{background-color:#fff;text-align:center;margin:0 auto}
+
+.section-header{padding-top:10rem;line-height:1.4;font-weight:700;text-align:center;margin-bottom:50px}
+
+.me-img{margin-top:30px}
+
+.me{border-radius:50%;height:200px}
+
+.about-me{text-align:left}
+
+.about-icon{font-size:5rem;color:#31C4F0}
+
+.row{margin-top:40px;text-align:center}
+
+.skill-heading{font-weight:600;margin-top:15px}
+
+.skill-list{list-style:none}
+
+#projects{background-color:#fff;text-align:center;margin:0 auto}
+
+.project-row{margin-top:50px;padding-bottom:50px;border-bottom:1px solid grey}
+
+.project-name{font-weight:700;margin-bottom:0}
+
+.tech{font-size:1.3rem}
+
+.project-image{width:350px;height:200px;border-radius:10px;-webkit-filter:grayscale(0%);-moz-filter:grayscale(0%);-o-filter:grayscale(0%);-ms-filter:grayscale(0%);filter:grayscale(0%);transition:0.9s ease-in-out}
+
+.project-image:hover{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(1100%);-ms-filter:grayscale(100%);filter:grayscale(100%)}
+
+.github{color:black}
+
+.github:hover{color:#31C4F0;cursor:pointer}
+
+#contact{background-color:#31C4F0;color:white;position:relative}
+
+.contact-icon{font-size:3em;color:white;padding-left:30px}
+
+.resume{color:white;text-transform:uppercase;color:yellow}
+
+.last-paragraph{margin-bottom:0}
+
+.copyright{margin-top:10rem;text-align:center}
+
+.footer-nav{bottom:0;right:0;position:absolute;color:white;text-decoration:none;margin-right:2.5rem}
+
+.footer-nav-text{margin-bottom:25px}
