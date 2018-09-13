@@ -48,7 +48,7 @@ body{margin:0}
 
 .tech{font-size:1.3rem}
 
-.project-image{width:350px;height:200px;border-radius:10px;-webkit-filter:grayscale(0%);-moz-filter:grayscale(0%);-o-filter:grayscale(0%);-ms-filter:grayscale(0%);filter:grayscale(0%);transition:0.9s ease-in-out}
+.project-image{width:350px;height:220px;border-radius:3px;-webkit-filter:grayscale(0%);-moz-filter:grayscale(0%);-o-filter:grayscale(0%);-ms-filter:grayscale(0%);filter:grayscale(0%);transition:0.9s ease-in-out}
 
 .project-image:hover{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(1100%);-ms-filter:grayscale(100%);filter:grayscale(100%)}
 

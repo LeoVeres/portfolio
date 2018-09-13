@@ -14,7 +14,9 @@ body {
   text-align: center;
   display: block
 }
-
+.project-image{
+  margin:10px
+}
 a {
   color: white;
   text-decoration: none;
